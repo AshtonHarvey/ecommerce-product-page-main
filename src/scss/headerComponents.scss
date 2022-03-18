@@ -6,7 +6,7 @@ header {
   align-items: center;
   height: 70px;
   h1 {
-    font-size: 2rem;
+    font-size: 24px;
     font-family: "Anton", sans-serif;
   }
 }
@@ -17,14 +17,17 @@ header {
   margin-right: 1rem;
   img {
     height: 20px;
+    margin: 10px;
   }
 }
 
 #menu-button {
   height: 15px;
-  padding: 10px;
+  margin: 15px;
 }
 
 body {
   background-color: orange;
+  display: flex;
+  flex-direction: column;
 }

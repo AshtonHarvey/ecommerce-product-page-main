@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#product-image {
+  width: 375px;
+  object-fit: cover;
+}
