@@ -1,0 +1,25 @@
+@use "./variables.scss";
+
+.description-container {
+  box-sizing: border-box;
+  margin: 20px 20px 0 20px;
+
+  h3 {
+    color: variables.$Orange;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  p {
+    margin-top: 20px;
+    line-height: 27px;
+    color: variables.$Dark-grayish-blue;
+    font-size: 1.06rem;
+  }
+}

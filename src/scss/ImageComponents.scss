@@ -1,0 +1,46 @@
+@use "./variables.scss";
+
+.image-container {
+  position: relative;
+}
+
+#product-image {
+  width: 100vw;
+  height: 280px;
+  object-fit: cover;
+}
+
+.arrow-button {
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  margin-top: -40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid variables.$Black;
+
+  img {
+    box-sizing: border-box;
+    width: 10px;
+    height: 15px;
+  }
+}
+
+.arrow-button:hover {
+  background-color: variables.$White;
+}
+
+.previous-button {
+  margin-left: 10px;
+  left: 0;
+}
+
+.next-button {
+  margin-right: 10px;
+  right: 0;
+}

@@ -1,0 +1,22 @@
+@use "./variables.scss";
+
+.add-to-cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: variables.$Orange;
+  border-radius: 10px;
+  height: 50px;
+  color: variables.$White;
+  margin: 15px 0 15px 0;
+
+  img {
+    width: 16px;
+  }
+
+  p {
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}

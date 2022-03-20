@@ -1,0 +1,69 @@
+@use "./variables.scss";
+
+.price-container {
+  margin: 20px;
+
+  .sale-container {
+    display: flex;
+    align-items: center;
+
+    .current-price {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .sale-percent-container {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: variables.$Pale-orange;
+      width: 45px;
+      height: 25px;
+      margin-left: 20px;
+
+      .sale-offer {
+        color: variables.$Orange;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .original-price {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: line-through;
+      color: variables.$Grayish-blue;
+      margin-left: auto;
+    }
+  }
+
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    background-color: variables.$Light-grayish-blue;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    .minus {
+      left: 0;
+      margin-left: 10px;
+    }
+
+    p {
+      margin: auto;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .plus {
+      right: 0;
+      margin-right: 10px;
+    }
+  }
+}

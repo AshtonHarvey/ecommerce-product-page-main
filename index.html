@@ -20,21 +20,21 @@
       <img id="menu-button" src="./src/images/icon-menu.svg" alt="" />
       <h1>sneakers</h1>
       <div class="icon-container">
-        <img src="./src/images/icon-cart.svg" alt="image of shopping cart" />
+        <img
+          src="./src/images/icon-cart-gray.svg"
+          alt="image of shopping cart"
+        />
         <img src="./src/images/image-avatar.png" alt="account profile icon" />
       </div>
     </header>
     <main>
       <div class="image-container">
         <img id="product-image" src="./src/images/image-product-1.jpg" alt="" />
-        <div class="left-cheveron">
-          <img
-            src="./src/images/icon-previous.svg"
-            alt="left facing cheveron"
-          />
+        <div class="arrow-button previous-button">
+          <img src="./src/images/icon-previous.svg" alt="left facing chevron" />
         </div>
-        <div class="right-cheveron">
-          <img src="./src/images/icon-next.svg" alt="right facing cheveron" />
+        <div class="arrow-button next-button">
+          <img src="./src/images/icon-next.svg" alt="right facing chevron" />
         </div>
       </div>
       <div class="description-container">
@@ -47,16 +47,20 @@
         </p>
       </div>
       <div class="price-container">
-        <p class="current-price"></p>
-        <p class="sale-offer"></p>
-        <p class="original-price"></p>
+        <div class="sale-container">
+          <p class="current-price">$125.00</p>
+          <div class="sale-percent-container">
+            <p class="sale-offer">50%</p>
+          </div>
+          <p class="original-price">$250.00</p>
+        </div>
         <div class="quantity-container">
-          <p class="quantity"></p>
           <img
             src="./src/images/icon-minus.svg"
             alt="minus button"
             class="minus"
           />
+          <p class="quantity">0</p>
           <img
             src="./src/images/icon-plus.svg"
             alt="plus button"
@@ -64,7 +68,11 @@
           />
         </div>
         <div class="add-to-cart-container">
-          <img src="" alt="" class="cart-image" />
+          <img
+            src="./src/images/icon-cart.svg"
+            alt="a shopping cart"
+            class="cart-image"
+          />
           <p>Add to cart</p>
         </div>
       </div>
