@@ -4,6 +4,32 @@ main {
 }
 
 #product-image {
-  width: 375px;
+  width: 100vw;
+  height: 300px;
   object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+}
+
+.left-cheveron {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #00000086;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  margin-top: -40px;
+  margin-left: 10px;
+
+  img {
+    box-sizing: border-box;
+    width: 10px;
+    height: 15px;
+  }
 }
